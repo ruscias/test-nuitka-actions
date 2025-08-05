@@ -13,4 +13,4 @@
 - I don't know if it's needed, but I ran this first: `pyside6-deploy --dry-run app-1/main.py --mode=standalone`
     - note, I was in the parent dir, where the venv was located
 - then I ran: `pyside6-deploy app-1/main.py --mode=standalone`
-- then I opened the folder in explorer and attempted to open the app, auto generated with the title "pyside_app_demo.app," via double click
+- then I opened the folder in explorer and attempted to open the app, auto generated with the title "pyside_app_demo.app," via double click >> it worked
