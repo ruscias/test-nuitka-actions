@@ -12,10 +12,12 @@ class MyWidget(QtWidgets.QWidget):
             "Hei maailma",
             "Hola Mundo",
             "Привет мир",
-            "Hello World",
+            "Hello World!",
         ]
 
-        self.pushButton = QtWidgets.QPushButton("Click Me!")
+        self.setWindowTitle("My app")
+
+        self.pushButton = QtWidgets.QPushButton("Click Me...")
         self.textLabel = QtWidgets.QLabel(
             "Hello World!", alignment=QtCore.Qt.AlignCenter
         )
