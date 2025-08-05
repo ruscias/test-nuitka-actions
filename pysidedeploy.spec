@@ -1,7 +1,7 @@
 [app]
 
 # title of your application
-title = pyside_app_demo
+title = hello_world
 
 # project root directory. default = The parent directory of input_file
 project_dir = /Users/home/repos/junk/test-pyside/app-1
@@ -39,7 +39,7 @@ qml_files =
 excluded_qml_plugins = 
 
 # qt modules used. comma separated
-modules = Widgets,Core,Gui,DBus
+modules = DBus,Core,Widgets,Gui
 
 # qt plugins used by the application. only relevant for desktop deployment
 # for qt plugins used in android application see [android][plugins]
