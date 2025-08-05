@@ -1,0 +1,16 @@
+# what did I do (mac)...
+- installed python 3.13: `brew install python@3.13`
+- create project dir
+- cd to project dir
+- created a virtual environment: `python3 -m venv name_of_venv`
+    - worth noting that I had a dir with sub-dirs. One of them, app-1, contained the project file. the venv was in the parent dir
+- activate the venv: `source name_of_venv/bin/activate`
+- install requirements.txt: `pip install -r requirements.txt`
+- create main.py
+- cut and paste example code: `https://doc.qt.io/qtforpython-6/gettingstarted.html#create-your-first-qt-application-with-qt-widgets`
+- test with: `python main.py`
+- if application runs, it's ready to test compilation with pyside6-deploy
+- I don't know if it's needed, but I ran this first: `pyside6-deploy --dry-run app-1/main.py --mode=standalone`
+    - note, I was in the parent dir, where the venv was located
+- then I ran: `pyside6-deploy app-1/main.py --mode=standalone`
+- then I opened the folder in explorer and attempted to open the app, auto generated with the title "pyside_app_demo.app," via double click
